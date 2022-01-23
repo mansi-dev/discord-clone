@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.toolbar{
+    padding: 0;
+    background-color: #414EED;
+    display: flex;
+    justify-content: center;
+}
+.appName{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+.logo{
+    width: 124px !important;
+    min-width: 124px !important;
+    max-width: 124px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    max-height:  34px !important;
+    margin: 10px !important;
+    top: 8px !important;
+    left: 10% !important;
+    
+}
+.buttonLogin {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    color: black;
+    background-color: white;
+    text-transform: none;
+    right: -18%;
+}
+.buttonLogin:hover{
+    color:#5865f2;
+    background-color: white;
+}
