@@ -23,7 +23,7 @@ export const ToolbarComp = () => {
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
-                <Button variant="contained" className={styles.buttonLogin} disableElevation>Login</Button>
+                <Button variant="contained" className={styles.buttonLogin} disableElevation onClick={()=>router.push('/login')}>Login</Button>
 
             </Toolbar>
         </AppBar>
