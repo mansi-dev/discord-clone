@@ -20,10 +20,7 @@ export const HomePage = () => {
                 <div className={styles.contentDiv}>
                     <p className={styles.content}>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
                 </div>
-                <div className={styles.btnGrp}>
-                    <Button variant="contained" startIcon={<DownloadIcon />} className={styles.btnDownload} disableElevation>Download for Mac</Button>
-                    <Button variant="contained" className={styles.btnBrowser} disableElevation>Open Discord in your browser</Button>
-                </div>
+                
                 {/* <Image src={backdrop} alt="banner"></Image> */}
 
                 <div className={styles.bannerLeftContainer}>
@@ -34,7 +31,10 @@ export const HomePage = () => {
 
                     <Image src={banner} alt="banner" width={650} height={360} className={styles.bannerImg}></Image>
                 </div>
-
+                <div className={styles.btnGrp}>
+                    <Button variant="contained" startIcon={<DownloadIcon />} className={styles.btnDownload} disableElevation>Download for Mac</Button>
+                    <Button variant="contained" className={styles.btnBrowser} disableElevation>Open Discord in your browser</Button>
+                </div>
             </div>
             <div className={styles.grid}>
                 <Image src={img} alt="Stylized image of a Discord server with multiple channels for studying, games, cooking, and pet photos." width={678} height={440} ></Image>
